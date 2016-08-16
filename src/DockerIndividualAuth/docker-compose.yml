@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  dockerindividualauth:
+    image: user/dockerindividualauth
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9071:80"

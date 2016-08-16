@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27CB06F3-7394-4D75-B82E-7EF69BF26A64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE1A1F08-8CA6-483C-AC47-CF25437E24AB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DockerIndividualAuth", "src\DockerIndividualAuth\DockerIndividualAuth.xproj", "{B1EC1A8F-79DF-453B-98C2-B6B43D2E7A8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1EC1A8F-79DF-453B-98C2-B6B43D2E7A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EC1A8F-79DF-453B-98C2-B6B43D2E7A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EC1A8F-79DF-453B-98C2-B6B43D2E7A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EC1A8F-79DF-453B-98C2-B6B43D2E7A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1EC1A8F-79DF-453B-98C2-B6B43D2E7A8C} = {27CB06F3-7394-4D75-B82E-7EF69BF26A64}
+	EndGlobalSection
+EndGlobal
