@@ -8,3 +8,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "9071:80"
+    depends_on:
+      - dockerindividualauth.db
+  dockerindividualauth.db:
+    image: postgres

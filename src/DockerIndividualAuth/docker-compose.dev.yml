@@ -16,3 +16,7 @@ services:
     volumes:
       - ~/clrdbg:/clrdbg:ro
     entrypoint: tail -f /dev/null
+    depends_on:
+      - dockerindividualauth.db
+  dockerindividualauth.db:
+    image: postgres
